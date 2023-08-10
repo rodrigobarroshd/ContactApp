@@ -3,8 +3,7 @@ package com.plcoding.contactscomposemultiplatform.contacts.presentation
 import com.plcoding.contactscomposemultiplatform.contacts.domain.Contact
 
 sealed interface ContactListEvent {
-
-    object onAddNewContactClick: ContactListEvent
+    object OnAddNewContactClick: ContactListEvent
     object DismissContact: ContactListEvent
     data class OnFirstNameChanged(val value: String): ContactListEvent
     data class OnLastNameChanged(val value: String): ContactListEvent

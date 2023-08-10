@@ -1,7 +1,6 @@
 package com.plcoding.contactscomposemultiplatform.contacts.domain
 
 data class Contact(
-
     val id: Long?,
     val firstName: String,
     val lastName: String,
@@ -9,4 +8,3 @@ data class Contact(
     val phoneNumber: String,
     val photoBytes: ByteArray?
 )
-
